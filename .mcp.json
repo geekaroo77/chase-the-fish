@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "jev-browser": {
+      "command": "npx",
+      "args": ["-y", "-p", "jev-browser@0.2.1", "jev-browser-mcp"],
+      "env": {
+        "TYPESAFE_API_KEY": "${TYPESAFE_API_KEY}"
+      }
+    }
+  }
+}
